@@ -4,7 +4,7 @@ import { NgxuxMatVerticalToolbarService } from './ngxux-mat-vertical-toolbar.ser
 
 /**
  * Vertical Navigation Component
- * 
+ *
  */
 @Component({
 
@@ -67,8 +67,8 @@ export class NgxuxMatVerticalToolbarComponent {
 
     public BOTTOM_MENU_ITEM: NgxuxMatVerticalToolbarItem = new NgxuxMatVerticalToolbarItem({
 
-        icon: 'home',
-        path: '/home'
+        icon: 'logout',
+        path: '/logout'
 
     });
 

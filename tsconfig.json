@@ -59,6 +59,18 @@
       ],
       "ngxux-mat-vertical-toolbar/*": [
         "dist/ngxux-mat-vertical-toolbar/*"
+      ],
+      "ngxux-mat-dialog": [
+        "dist/ngxux-mat-dialog"
+      ],
+      "ngxux-mat-dialog/*": [
+        "dist/ngxux-mat-dialog/*"
+      ],
+      "ngxux-mat-header-nav": [
+        "dist/ngxux-mat-header-nav"
+      ],
+      "ngxux-mat-header-nav/*": [
+        "dist/ngxux-mat-header-nav/*"
       ]
     }
   }

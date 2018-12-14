@@ -1,4 +1,5 @@
 import { Component }                      from '@angular/core';
+import { NgxuxMatDialogService }          from '../../projects/ngxux-mat-dialog/src/lib/ngxux-mat-dialog.service';
 import { TableColumn }                    from '../../projects/ngxux-mat-table/src/lib/table-column';
 import { NgxuxMatVerticalToolbarItem }    from '../../projects/ngxux-mat-vertical-toolbar/src/lib/ngxux-mat-vertical-toolbar-item';
 import { NgxuxMatVerticalToolbarService } from '../../projects/ngxux-mat-vertical-toolbar/src/lib/ngxux-mat-vertical-toolbar.service';
@@ -49,7 +50,8 @@ export class AppComponent {
 
     ];
 
-    public constructor(private ngxuxMatVerticalToolbarService: NgxuxMatVerticalToolbarService) {
+    public constructor(private ngxuxMatVerticalToolbarService: NgxuxMatVerticalToolbarService,
+                       private ngxuxMatDialogService: NgxuxMatDialogService) {
 
         ngxuxMatVerticalToolbarService.leftMenuItems = [
 
@@ -63,6 +65,21 @@ export class AppComponent {
             console.log(item);
 
         });
+
+        // ngxuxMatDialogService.open(TestDialogComponent, new NgxuxMatDialogSettings({
+        //
+        //     id: 'test',
+        //     title: 'Testing Dialog',
+        //
+        //     width: '200px',
+        //     height: '200px',
+        //
+        //     backShow: true,
+        //     nextShow: true,
+        //     nextLabel: 'Save!'
+        //
+        // }));
+
     }
 
     public rowClicked(e: any): void {
