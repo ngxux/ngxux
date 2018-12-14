@@ -1,0 +1,11 @@
+{
+    "name": "My Library",
+    "mode": "file",
+    "out": "doc",
+    "theme": "default",
+    "ignoreCompilerErrors": "false",
+    "preserveConstEnums": "true",
+    "exclude": "*.spec.ts",
+    "external-modulemap": ".*\/modules\/@mycompany\/([\\w\\-_]+)\/",
+    "stripInternal": "false"
+}

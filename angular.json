@@ -222,6 +222,181 @@
           }
         }
       }
+    },
+    "mat-table": {
+      "root": "projects/mat-table",
+      "sourceRoot": "projects/mat-table/src",
+      "projectType": "library",
+      "prefix": "ngxux",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/mat-table/tsconfig.lib.json",
+            "project": "projects/mat-table/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/mat-table/src/test.ts",
+            "tsConfig": "projects/mat-table/tsconfig.spec.json",
+            "karmaConfig": "projects/mat-table/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/mat-table/tsconfig.lib.json",
+              "projects/mat-table/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "ngxux-mat-table": {
+      "root": "projects/ngxux-mat-table",
+      "sourceRoot": "projects/ngxux-mat-table/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngxux-mat-table/tsconfig.lib.json",
+            "project": "projects/ngxux-mat-table/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngxux-mat-table/src/test.ts",
+            "tsConfig": "projects/ngxux-mat-table/tsconfig.spec.json",
+            "karmaConfig": "projects/ngxux-mat-table/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngxux-mat-table/tsconfig.lib.json",
+              "projects/ngxux-mat-table/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "ngxux-mat-tooolbar": {
+      "root": "projects/ngxux-mat-tooolbar",
+      "sourceRoot": "projects/ngxux-mat-tooolbar/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngxux-mat-tooolbar/tsconfig.lib.json",
+            "project": "projects/ngxux-mat-tooolbar/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngxux-mat-tooolbar/src/test.ts",
+            "tsConfig": "projects/ngxux-mat-tooolbar/tsconfig.spec.json",
+            "karmaConfig": "projects/ngxux-mat-tooolbar/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngxux-mat-tooolbar/tsconfig.lib.json",
+              "projects/ngxux-mat-tooolbar/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "ngxux-mat-toolbar": {
+      "root": "projects/ngxux-mat-toolbar",
+      "sourceRoot": "projects/ngxux-mat-toolbar/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngxux-mat-toolbar/tsconfig.lib.json",
+            "project": "projects/ngxux-mat-toolbar/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngxux-mat-toolbar/src/test.ts",
+            "tsConfig": "projects/ngxux-mat-toolbar/tsconfig.spec.json",
+            "karmaConfig": "projects/ngxux-mat-toolbar/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngxux-mat-toolbar/tsconfig.lib.json",
+              "projects/ngxux-mat-toolbar/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "ngxux-mat-vertical-toolbar": {
+      "root": "projects/ngxux-mat-vertical-toolbar",
+      "sourceRoot": "projects/ngxux-mat-vertical-toolbar/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngxux-mat-vertical-toolbar/tsconfig.lib.json",
+            "project": "projects/ngxux-mat-vertical-toolbar/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngxux-mat-vertical-toolbar/src/test.ts",
+            "tsConfig": "projects/ngxux-mat-vertical-toolbar/tsconfig.spec.json",
+            "karmaConfig": "projects/ngxux-mat-vertical-toolbar/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngxux-mat-vertical-toolbar/tsconfig.lib.json",
+              "projects/ngxux-mat-vertical-toolbar/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ngxux"

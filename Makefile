@@ -3,12 +3,12 @@ all: version-patch build publish
 
 build:
 
-	ng build mat-admin
+	ng build $(PROJECT)
 
 version-patch:
 
-	cd projects/mat-admin && npm version patch
+	cd projects/$(PROJECT) && npm version patch
 
 publish:
 
-	cd dist/mat-admin && npm publish --access public
+	cd dist/$(PROJECT) && npm publish --access public

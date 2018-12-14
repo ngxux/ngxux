@@ -1,0 +1,57 @@
+:host {
+    
+    .wrapper {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        
+        mat-icon {
+            
+            font-size: 30px;
+            width: unset;
+            height: unset;
+            
+        }
+        
+        .item {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55px;
+            
+            cursor: pointer;
+            padding: 13px;
+            
+        }
+        
+        .top {
+            
+            flex: 0 1 70px;
+            
+            display: flex;
+            height: 70px;
+            cursor: pointer;
+            
+        }
+        
+        .middle {
+            
+            flex: 1;
+            
+        }
+        
+        .bottom {
+            
+            flex: 0 1 50px;
+            
+            display: flex;
+            align-items: flex-end;
+            
+        }
+        
+    }
+    
+}

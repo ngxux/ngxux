@@ -29,6 +29,36 @@
       ],
       "mat-admin/*": [
         "dist/mat-admin/*"
+      ],
+      "mat-table": [
+        "dist/mat-table"
+      ],
+      "mat-table/*": [
+        "dist/mat-table/*"
+      ],
+      "ngxux-mat-table": [
+        "dist/ngxux-mat-table"
+      ],
+      "ngxux-mat-table/*": [
+        "dist/ngxux-mat-table/*"
+      ],
+      "ngxux-mat-tooolbar": [
+        "dist/ngxux-mat-tooolbar"
+      ],
+      "ngxux-mat-tooolbar/*": [
+        "dist/ngxux-mat-tooolbar/*"
+      ],
+      "ngxux-mat-toolbar": [
+        "dist/ngxux-mat-toolbar"
+      ],
+      "ngxux-mat-toolbar/*": [
+        "dist/ngxux-mat-toolbar/*"
+      ],
+      "ngxux-mat-vertical-toolbar": [
+        "dist/ngxux-mat-vertical-toolbar"
+      ],
+      "ngxux-mat-vertical-toolbar/*": [
+        "dist/ngxux-mat-vertical-toolbar/*"
       ]
     }
   }
